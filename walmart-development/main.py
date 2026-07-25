@@ -16,6 +16,7 @@ def main():
 
     item_data = csv_reader(item_url)
     pt_data = csv_reader_spreadsheet(pt_url)
+    print(pt_url)
     sop_data = load_sop_from_url(sop_url)
 
     filtered_item_data = item_tracker(item_data)
